@@ -13,6 +13,7 @@ const searchBook = () =>{
     // search result
     const searchResult = document.getElementById('search-result');
     searchResult.textContent = '';
+    
 // ========================================================no result found
     if (searchText == '') {
         searchItems.innerHTML = `<h1 class="text-center mt-5 pt-5 fw-lighter fst-italic">👆</h1>
